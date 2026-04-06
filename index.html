@@ -8,6 +8,18 @@
     <title>Firzi | Personal Portfolio</title>
   </head>
   <body>
+    <nav class="site-nav glass" id="siteNav">
+      <div class="nav-inner">
+        <a class="nav-brand" href="#hero">Firzi<span class="nav-dot">.</span></a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a class="btn solid" href="#contact">Hubungi Gue</a>
+        </div>
+      </div>
+    </nav>
+
     <canvas id="scene"></canvas>
     <div class="noise-layer" aria-hidden="true"></div>
     <div class="phase-wash" id="phaseWash" aria-hidden="true"></div>
@@ -124,6 +136,7 @@
         </div>
         <div class="card-grid three-col services-grid">
           <article class="glass panel service-card service-a" data-reveal>
+            <span class="service-num">01</span>
             <h3>Portfolio Website</h3>
             <p>
               Gue bantu lo bikin website portfolio yang bukan cuma estetik, tapi juga punya alur
@@ -137,6 +150,7 @@
             </ul>
           </article>
           <article class="glass panel service-card service-b" data-reveal>
+            <span class="service-num">02</span>
             <h3>Landing Page</h3>
             <p>
               Untuk launch produk atau campaign, gue bikin landing page yang fokus ke conversion
@@ -149,6 +163,7 @@
             </ul>
           </article>
           <article class="glass panel service-card service-c" data-reveal>
+            <span class="service-num">03</span>
             <h3>Web Interaction</h3>
             <p>
               Gue ngerjain interaksi custom dan animasi 3D supaya website lo punya feel premium,
@@ -173,6 +188,12 @@
           <article class="glass panel project project-main" data-reveal>
             <p class="section-tag">Web App</p>
             <h3>Online Exam Machine</h3>
+            <div class="project-tags">
+              <span>Laravel</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Blade</span>
+            </div>
             <div class="project-preview">
               <img
                 src="/public/exam.png"
@@ -192,6 +213,11 @@
           <article class="glass panel project project-side" data-reveal>
             <p class="section-tag">Website</p>
             <h3>Company Profile</h3>
+            <div class="project-tags">
+              <span>Laravel</span>
+              <span>Tailwind</span>
+              <span>MySQL</span>
+            </div>
             <div class="project-preview">
               <img
                 src="/public/compro.png"
